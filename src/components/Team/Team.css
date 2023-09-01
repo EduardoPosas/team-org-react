@@ -1,0 +1,28 @@
+.team {
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.team__heading {
+    display: inline-block;
+    color: #212121;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid;
+}
+
+@media (min-width: 768px) {
+    .team__container {
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+.team__color {
+    position: absolute;
+    top: 3.9rem;
+    right: 2rem;
+}

@@ -1,0 +1,13 @@
+.form label {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.form select {
+    margin-top: 0.5rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+.form {
+    margin: 4rem 0;
+}
+
+.form h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.form form {
+    background: #f6f6f6;
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 0.4);
+    padding: 2rem;
+}
+
+.form form:nth-child(2) {
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .form {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem; 
+    }
+    .form form {
+        min-width: calc(50% - 1rem);
+    }
+    .form form:nth-child(2) {
+        margin-top: 0;
+    }
+}
